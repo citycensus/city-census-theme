@@ -127,8 +127,18 @@ let colors = {
   'pink-light': '#fa7ea8',
   'pink-lighter': '#ffbbca',
   'pink-lightest': '#ffebef',
-}
 
+	'black-54': 'rgba(0, 0, 0, 0.54)',
+	'black-31': 'rgba(0, 0, 0, 0.32)',
+	'pale-blue': '#ebf4ff',
+	'greyish-brown': '#565656',
+	'grey-dark': '#d8d8d8',
+	'grey-light': '#fdfdfd',
+	'light-periwinkle': '#c7ddf7',
+	'pale-grey': '#e9eef3',
+	'ice-blue': '#fcfeff',
+	'dark-sky-blue': '#4990e2',
+}
 module.exports = {
 
   /*

@@ -1,3 +1,31 @@
 @tailwind preflight;
 
 @tailwind utilities;
+
+.nav {
+	height: 80px;
+	border-top: 5px solid config('colors.dark-sky-blue');
+}
+.hero {
+
+}
+.hero h1 {
+	font-size: 64px;
+	font-weight: bold;
+	text-align: center;
+	color: #ebf4ff;
+	color: config('colors.pale-blue');
+	text-shadow: 0 1px 9px rgba(0, 0, 0, 0.32);
+	text-shadow: 0 1px 9px config('colors.black-31');
+	padding-top: 60px;
+}
+.hero h2 {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	color: #ebf4ff;
+	color: config('colors.pale-blue');
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}

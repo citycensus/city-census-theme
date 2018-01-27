@@ -1,5 +1,7 @@
 @tailwind preflight;
-
+h3 {
+  @apply text-2xl;
+}
 .nav-item {
   @apply flex -mb-px mr-8;
 }
@@ -10,10 +12,23 @@
   @apply border-b-4 border-dark-sky-blue;
 }
 
+.content {
+  @apply mx-auto;
+  @apply pt-10 pb-10;
+}
+.section {
+  @apply mb-8;
+}
+.section-alternate {
+  @apply bg-light-periwinkle;
+}
+.card {
+  @apply max-w-sm rounded overflow-hidden shadow-lg bg-white;
+}
+
 @tailwind utilities;
 
-.cards {
-  margin-top: -40px;
+.card {
 }
 .nav {
   border-top: 5px solid config('colors.dark-sky-blue');
@@ -42,4 +57,7 @@
   color: #ebf4ff;
   color: config('colors.pale-blue');
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.content {
 }

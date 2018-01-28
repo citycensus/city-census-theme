@@ -6,9 +6,9 @@
   "author": "milafrerichs <mila.frerichs@gmail.com>",
   "license": "MIT",
   "private": false,
-	"scripts": {
-		"start": "webpack --config config/webpack.config.js"
-	},
+  "scripts": {
+    "start": "webpack --config config/webpack.config.js --watch"
+  },
   "devDependencies": {
     "autoprefixer": "^7.2.5",
     "babel-core": "^6.26.0",

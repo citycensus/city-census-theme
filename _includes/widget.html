@@ -5,7 +5,9 @@
 	<div class="card-content">
 		{{ include.content }}
 	</div>
-	<div class="card-footer">
-		{{ include.footer }}
-	</div>
+	{% if include.footer %}
+		<div class="card-footer">
+			{{ include.footer }}
+		</div>
+	{% endif %}
 </div>

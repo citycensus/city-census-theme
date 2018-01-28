@@ -2,6 +2,15 @@
 h3 {
   @apply text-2xl;
 }
+a {
+	@apply text-light-blue no-underline;
+}
+a:visited {
+	@apply text-light-blue;
+}
+a:hover {
+	@apply underline;
+}
 .nav-item {
   @apply flex -mb-px mr-8;
 }
@@ -17,18 +26,52 @@ h3 {
   @apply pt-10 pb-10;
 }
 .section {
-  @apply mb-8;
+	color: config('colors.greyish-brown');
 }
 .section-alternate {
   @apply bg-light-periwinkle;
 }
+.section-alternate-2 {
+  @apply bg-pale-grey;
+}
 .card {
-  @apply max-w-sm rounded overflow-hidden shadow-lg bg-white;
+  @apply max-w-sm rounded overflow-hidden shadow bg-white mb-8;
 }
 
+.card-header {
+	@apply bg-white p-4 text-2xl;
+}
+
+.card-content {
+	@apply p-4 bg-grey-light text-2xl;
+}
+.card-content ol{
+	@apply pl-8;
+}
+.card-content ol li{
+	@apply mb-4;
+}
+.card-footer {
+	@apply p-4 bg-grey-dark text-right text-2xl;
+}
+.card-footer a{
+	@apply text-2xl;
+}
 @tailwind utilities;
 
+.section-alternate h3 {
+  text-shadow: 0 1px rgba(0,0,0,0.17);
+}
+
 .card {
+}
+.card h5{
+	font-weight: 500;
+	color: #34434B;
+	text-transform: uppercase;
+}
+.card-footer a {
+	font-weight: medium;
 }
 .nav {
   border-top: 5px solid config('colors.dark-sky-blue');

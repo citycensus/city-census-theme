@@ -138,6 +138,7 @@ let colors = {
 	'pale-grey': '#e9eef3',
 	'ice-blue': '#fcfeff',
 	'dark-sky-blue': '#4990e2',
+  'light-blue': '#004DA1',
 }
 module.exports = {
 
